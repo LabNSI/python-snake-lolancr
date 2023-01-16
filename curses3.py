@@ -149,7 +149,7 @@ def deplacement(win, score, key, snake, food):
 		snake[0][0] =1 
 
 	if  snake[0][1]== win.getmaxyx()[1]-1:
-		snake[0][1] = 1
+		snake[0][1] =1
 	# Suppression du dernier anneau du serpent.
 	# Sera conditionner plus tard au fait que le serpent mange ou pas une pomme
 	# Le score sera alors également mis à jour
